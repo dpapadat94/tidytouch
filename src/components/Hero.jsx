@@ -10,7 +10,7 @@ const Hero = () => {
           <p className=" sm:text-xl sm:flex sm:leading-8">
             Whether it’s a one-time deep clean or regular upkeep, we’re here to
             ensure your home shines with comfort and cleanliness. Contact us
-            today for a free consultation
+            today for a free consultation.
           </p>
           <h2 className="text-3xl py-4 font-bold italic">
             Call Today <span className=" text-[#38b6ff]">704-886-8493</span>
