@@ -14,7 +14,7 @@ const About = () => {
           </p>
           <p className="py-4 text-xl">
             We pride ourselves on providing our customers with the best possible
-            experience
+            experience.
           </p>
         </div>
         <div className="w-full grid grid-cols-1 sm:grid-cols-4 gap-3 text-center py-8">
@@ -22,13 +22,13 @@ const About = () => {
             <img className="w-20 mx-auto mt-3 " src={Est} alt="html icon" />
             <p className="my-4 font-bold">Free Estimates</p>
             <p className="my-4">
-              No commitment needed for one of experts to come out for a home
+              No commitment needed for one of our experts to come out for a home
               estimate.
             </p>
           </div>
           <div className="shadow-md p-2  shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto mt-3 " src={Local} alt="html icon" />
-            <p className="my-4 font-bold">Local Small Buisness</p>
+            <p className="my-4 font-bold">Local Small Business</p>
             <p className="my-4">
               We are a small company with the time to treat each customer with
               the highest level of care.
@@ -39,7 +39,7 @@ const About = () => {
             <p className="my-4 font-bold">Satisfaction Guaranteed</p>
             <p className="my-4">
               Contact us within 2 business days if you are not satisfied with
-              the work and we will be back to fix it!
+              our work and we will be back to fix it!
             </p>
           </div>
           <div className="shadow-md p-2  shadow-[#040c16] hover:scale-110 duration-500">

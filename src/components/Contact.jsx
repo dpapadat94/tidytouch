@@ -22,8 +22,9 @@ const Contact = () => {
               <b>Hours</b>: 8AM-4PM
             </li>
             <li>
-              <b>Quesitons</b>: For Questions about our services or service area
-              please feel free to call!
+              <b>Questions</b>: For questions about our services or service area
+              please feel free to call or fill in your information below and we
+              will be in touch!
             </li>
           </ul>
         </div>
@@ -46,7 +47,7 @@ const Contact = () => {
           className="bg-white p-2 border border-blue-300"
           name="message"
           rows="5"
-          placeholder="Please tell us a little bit about what you are looking for and let us know what time of day works best for you for a quick chat to set up a home visit"
+          placeholder="Please tell us a little bit about what you are looking for and let us know what time of day works best for you for a quick chat to set up a home visit."
         ></textarea>
         <button className="text-black border-2 hover:bg-[#4CB9E7] hover:border-[#4CB9E7] px-4 py-3 my-8 mx-auto flex items-center ">
           Submit

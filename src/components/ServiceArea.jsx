@@ -21,7 +21,7 @@ const ServiceArea = () => {
             Service area
           </h3>
           <p className="mb-4 mt-2 text-base font-normal text-white dark:text-gray-400">
-            Locally owned and operated we are proud to clean homes in Charlotte
+            Locally owned and operated, we are proud to clean homes in Charlotte
             and the surrounding areas of:
           </p>
         </li>
