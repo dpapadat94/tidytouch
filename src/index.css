@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Play:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rowdies:wght@300;400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-dark: #38b6ff;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply font-[Roboto];
+  }
+  li {
+    @apply p-2 py-4 text-base hover:text-[--primary-dark];
+  }
+  button {
+    @apply bg-transparent hover:bg-[#38B6FF] text-[#38B6FF] font-semibold hover:text-white py-2 px-4 border border-[#38B6FF] hover:border-transparent rounded;
+  }
+  h2 {
+    @apply text-xl font-bold;
+  }
+  h4 {
+    @apply font-[Rowdies];
+  }
+}
